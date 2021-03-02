@@ -1,0 +1,65 @@
+body, html {
+    width: 100%;
+}
+
+.header {
+    color: purple;
+    font-style: italic;
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+}
+
+button {
+    color: purple;
+    font-style: italic;
+    background-color: #deffe7;
+    border-radius: 7px;
+    height: 40px;
+}
+
+.form-popup {
+    display: none;
+    width:600px;
+    padding:30px;
+    margin:auto;
+    border-radius:10px;
+    text-align:left;
+    background-color:white;
+    font-size:20px;
+    color: purple;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+.form-popup button {
+    margin: auto;
+    width: 78px;
+    display: block;
+} 
+
+  .form-container {
+    background-color: white;
+  }
+
+  .form-container input[type=text], .form-container input[type=number] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  table, th, td, button {
+    border: 1px solid black;
+  }
+
+  th, td, button {
+    padding: 15px;
+  }
+
+  th {
+    text-align: left;
+  }
